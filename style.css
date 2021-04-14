@@ -1,0 +1,275 @@
+/**********************************GLOBAL STYLES********************************************/
+/**********************************GLOBAL STYLES********************************************/
+/**********************************GLOBAL STYLES********************************************/
+:root 
+{--Background-colour: #E8F1CD;
+--Background-gradient: #DCE8B9;
+--Orange: #F15B12;
+--Hover-orange: #CD5014;
+--Lemon: #84A528;
+--Active-black: #040404;
+--Inactive-black: #373737;
+--Inactive-black-2: #727272;
+--Inactive-black-3: #D2D2D2;
+--White: #FFFFFF;
+--Border-black: #ADADAD;
+}
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background: var(--Background-colour) 0% 0% no-repeat padding-box;
+  line-height: 150%;
+  box-sizing: border-box;
+}
+
+.col-1 {
+  width: 8.3333%;
+}
+
+.col-2 {
+  width: 16.6666%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333%;
+}
+
+.col-5 {
+  width: 41.6666%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3332%;
+}
+
+.col-8 {
+  width: 66.6665%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3331%;
+}
+
+.col-11 {
+  width: 91.6664%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/**********************************END OF GLOBAL STYLES********************************************/
+/**********************************END OF GLOBAL STYLES********************************************/
+/**********************************END OF GLOBAL STYLES********************************************/
+
+body {
+    background-color: var(--Lemon);
+  }
+
+  div.wrapper h2{
+    text-align: center;
+    padding: 2rem 0rem;
+    font-size: 3rem;
+  }
+
+form{   
+    margin-left: 2%;
+    background-color: var(--Background-gradient);
+    padding-bottom: 1vh;  
+    }
+
+form h4{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 4rem;
+}
+
+div.input-group{
+    padding: 0rem 2rem;
+}
+
+div.input-group:first-of-type{
+    display: flex;
+}
+
+div.input-group:first-of-type > div.input-box:first-of-type{
+    padding-right: 6rem;
+
+}
+
+div.input-group:first-of-type > div.input-box > input{
+    padding-left: 1vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.5vw;
+    background-color: white;
+    width: 30vw;
+    border: none;
+    outline: none;
+    border-radius: none;
+}
+
+div.input-box{
+    padding-bottom: 2rem;
+}
+
+
+input {
+    padding-left: 1vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.5vw;
+    background-color: white;
+    width: 30vw;
+    border: none;
+    outline: none;
+
+}
+
+input.radio{
+    width: 5%;
+    margin-left: 26%;
+}
+
+input#bc2.radio{
+    margin-left: 19%;
+}
+
+select {
+    padding-left: 1vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.5vw;
+    background-color: white;
+    width: 30vw;
+    border: none;
+    outline: none;
+    border-radius: none;
+    margin-right: 5%;
+}
+
+button {
+    display: contents;
+}
+
+
+p {
+  text-align: justify;
+  margin-bottom: 5%;
+  font-size: 1.5vw;
+  margin-left: 15%;
+  font-weight: bolder;
+}
+
+label{
+  margin-left: 0;
+  background-color: var(--Background-colour);
+  font-size: 1.7vw;
+  font-weight: bolder;
+}
+
+
+textarea{
+  width: 100%;
+  background-color: var(--White);
+  height: 100%;
+  padding-left: 1%;
+  padding-top: 2%;
+  padding-bottom: 25%;
+  font-weight: bolder;
+  outline: none;
+  font-size: 1.5vw;
+  resize: none;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+button{
+  width: 15%;
+  color: var(--White);
+  padding: 1%;
+  font-size: 1.5vw;
+  background-color: var(--Orange);
+  border-radius: 10px;
+  display: inline-block;
+  outline: none;
+  margin: auto;
+}
+
+div.input-group:last-of-type{
+    text-align: center;
+    padding-top: 5%;
+}
+/**********************************END OF BODY STYLES********************************************/
+/**********************************END OF BODY STYLES********************************************/
+/**********************************END OF BODY STYLES********************************************/
+
+@media screen and (max-width: 480px){
+  input {
+    padding-left: 1vw;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1rem;
+  }
+  div.input-box {
+    font-size:1.5rem;
+    margin-left: 1%;
+  }
+  
+  div.input-group:first-of-type > div.input-box > input{
+    font-size:1rem
+  }
+  
+  p{
+    font-size: 1rem;
+    width: 80%;
+    text-align: center;
+  }
+
+
+  textarea{
+    font-size: 3vw;
+  }
+
+  label{
+    font-size: 3.5vw;
+  }
+
+  button{
+    width: 25%;
+    font-size: 3.5vw;
+  }
+
+  form p {
+    margin-bottom: 2%;
+    font-size: 2vw;
+  }
+
+  input{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  select{
+   font-size: 1rem
+ }
+ 
+ input#bc2.radio{
+   margin-left: 10%;
+ }
+
+}
